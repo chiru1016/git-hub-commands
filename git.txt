@@ -1,0 +1,48 @@
+ in cmd/terminal
+ > git init 
+
+ create a file, then add content
+ go to cmd/terminal 
+ > git add .(Don't forget the ".")
+
+ go to GitHub and create a repo.
+ > git remote add origin git@github.com:chiru1016/ll.git
+ > git branch -M main
+ > git push -u origin main 
+ 
+ open file make changes, then go to terminal.
+ > git add .
+ > git commit -m "2nd commit" (<-- your message with in "--" )
+ > git push
+
+ open file or repo file will be updated
+ 
+ creating a branch named "me"
+ > git branch me
+ > git switch me  (switch or checkout u can use both)
+ 
+ open file add some content, then.
+ > git add .
+ > git commit -m "me is adding"
+ > git push --set-upstream origin me
+ 
+ your Branch has been created, now add another Branch called "fix" in the main.
+ > git switch main
+ > git branch fix
+ > git switch fix
+ 
+ open file add new line content.
+ > git add .
+ > git commit -m "fix"
+ > git push --set-upstream origin fix
+
+ Now merge
+ > git merge main
+ > git push --set-upstream origin me
+ 
+ go to Github and in repo commit changes, 
+ wile doind second commit it will show conflicts if it's in same line(make sure it's in same line)
+ resolve the conflicts , then in cmd/terminal.
+ > git pull
+ 
+ changes are in the main Branch now.
