@@ -1,0 +1,49 @@
+ show current working dir
+ > pwd 
+ 
+ list the files Nd folder in the dir
+ > ls
+ 
+ change dir 
+ > cd /home/chiranjeevi-r/Desktop
+ 
+ create folder/dir
+ > mkdir shri
+ 
+ remove folder/dir
+ > rmdir shri
+ 
+ to create empty file
+ > touch chiru.txt
+
+ copy a file to another dir
+ > cp chiru.txt /home/chiranjeevi-r/Downloads
+ 
+ change file name
+ > mv chiru.txt boy.txt
+
+ move a file
+ > mv boy.txt /home/chiranjeevi-r/Downloads
+ 
+ remove a file
+ > rm me.txt
+ 
+ Display file
+ > cat shri.txt
+ 
+ Display first 10 lines
+ > head shri.txt
+ 
+ Display last 10 lines
+ > tail shri.txt
+ 
+ Display file in file format (q for exit)
+ > less shri.txt
+ 
+ It will show current user
+ > whoami
+ 
+ find pattren in the file
+ > grep "a" shri.txt
+ 
+ 
